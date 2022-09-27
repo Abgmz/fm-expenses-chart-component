@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <article class="chart-container">
+    <header class="chart__header">
+      <div class="chart__header-text-content">
+        <p class="chart__header-text-balance">My balance</p>
+        <h1 class="chart__header-text-number">$921.48</h1>
+      </div>
+      <div class="chart__header-logo">
+        <img src="images/logo.svg" alt="" class="chart__header-logo-img">
+      </div>
+    </header>
+
+    <div class="chart__spending">
+      <h2 class="chart__spending-title">Spending - Last 7 days</h2>
+      <div class="chart__spending-bars-container" data-chart-container>
+      </div>
+      <footer class="chart__spending-footer">
+        <div class="chart__spending-footer-text-content">
+          <p class="chart__spending-footer-text-month">
+            Total this month
+          </p>
+          <h2 class="chart__spending-footer-text-number">
+            $478.33
+          </h2>
+        </div>
+        <div class="chart__spending-footer-text-content">
+          <p class="chart__spending-footer-text-plus">
+            +2.4%
+          </p>
+          <p class="chart__spending-footer-text-lastmonth">
+            from last month
+          </p>
+        </div>
+      </footer>
+    </div>
+  </article>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
