@@ -15,5 +15,5 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: <a href="" target="_blank"></a>
-- Live Site URL: <a href="" target="_blank"></a>
+- Solution URL: <a href="https://github.com/Abgmz/fm-expenses-chart-component" target="_blank">https://github.com/Abgmz/fm-expenses-chart-component</a>
+- Live Site URL: <a href="https://expenses-chart-comp.netlify.app/" target="_blank">https://expenses-chart-comp.netlify.app/</a>
